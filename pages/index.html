@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Koon!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/index-style.css">
+</head>
+
+<body class="hbd">
+    <div class="hbd_send">
+        <h1 class="hbd_send_header">มาอวยพรวันเกิดกัน!</h1>
+        <form class="hbd_send_form" action="/view" method="post">
+            <label class="hbd_send_form_label" for="message">ข้อความอวยพร : </label><br>
+            <input class="hbd_send_form_input" type="text" id="message" name="message"><br>
+            <label class="hbd_send_form_label" for="from">จาก : </label><br>
+            <input class="hbd_send_form_input" type="text" id="from" name="from"><br>
+            <input class="hbd_send_form_submit" type="submit" value="Submit">
+          </form>
+    </div>
+    <a href="/view" class="hbd_skip">ข้าม</a>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #120009;
+}
+
+@keyframes show_message {
+    0%   {opacity: 0%;}
+    50%  {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+.hbd {
+    font-family: 'Mitr', sans-serif;
+    color: #ffffff;
+}
+
+.hbd_header {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+    font-size: 30px;
+}
+
+.anim_show {
+    animation-name: show_message;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.hbd_message {
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(134, 0, 67);
+}
+
+.hbd_message_message {
+    font-size: 25px;
+}
+
+.hbd_message_from {
+    font-size: 15px;
+}
